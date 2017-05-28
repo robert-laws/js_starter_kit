@@ -1,6 +1,7 @@
 var arrays = require('./arrays.js')
 var objects = require('./objects.js')
 var loops = require('./loops.js')
+var webdom = require('./webdom.js')
 
 // console.log(loops.forLoop(loops.items))
 // console.log(loops.whileLoop())
@@ -8,8 +9,13 @@ var loops = require('./loops.js')
 
 // console.log(loops.theBeatlesPlay(loops.musicians, loops.instruments));
 
-console.log(loops.johnLennonFacts(loops.johnLennonFactsArr));
-console.log(loops.iLoveTheBeatles(15));
+// console.log(loops.johnLennonFacts(loops.johnLennonFactsArr));
+// console.log(loops.iLoveTheBeatles(15));
+
+console.log(webdom.setCount(5))
+console.log(webdom.getCount())
+
+console.log(webdom.count)
 
 // arrays.destructivelyAppendKitten('Felix');
 
